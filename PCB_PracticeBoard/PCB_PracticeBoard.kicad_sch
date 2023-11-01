@@ -1410,7 +1410,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2a9b93af-9dfa-48b4-87f3-c703134a413d)
   )
-  (label "SW5" (at 83.82 64.77 180) (fields_autoplaced)
+  (label "SW3" (at 83.82 64.77 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2d1cfaf3-7531-4d8f-8523-1aeb305a410f)
   )
@@ -1450,11 +1450,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a7d53473-51ea-4556-af9d-3e3f936130e4)
   )
-  (label "SW4" (at 60.96 105.41 180) (fields_autoplaced)
+  (label "SW5" (at 60.96 105.41 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a9d0def9-53d2-4963-81b9-b0775af4aeea)
   )
-  (label "SW3" (at 38.1 105.41 180) (fields_autoplaced)
+  (label "SW4" (at 38.1 105.41 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid c99e27a1-51f8-4cd9-a2c5-c8f53e239a47)
   )
@@ -1496,7 +1496,7 @@
     )
     (pin "1" (uuid fb3bcbca-8622-4f33-9d28-e6e5df189151))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#FLG01") (unit 1)
         )
@@ -1521,7 +1521,7 @@
     )
     (pin "1" (uuid 92c395cb-d698-4fca-abd7-65b38d43ecc6))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR010") (unit 1)
         )
@@ -1538,7 +1538,7 @@
     (property "Value" "4.7μ" (at 58.42 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 55.5752 116.84 0)
+    (property "Footprint" "SamacSys_Parts:CAPPRD500W60D1025H1400" (at 55.5752 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 54.61 113.03 0)
@@ -1547,7 +1547,7 @@
     (pin "1" (uuid b1fac1d8-0490-4211-84c0-d52baf52677d))
     (pin "2" (uuid 4dddb48f-6bb7-4f06-86af-238371668ba9))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "C5") (unit 1)
         )
@@ -1564,7 +1564,7 @@
     (property "Value" "10k" (at 16.51 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 19.812 99.06 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 19.812 99.06 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 21.59 99.06 0)
@@ -1573,7 +1573,7 @@
     (pin "1" (uuid 609c0787-aad9-4dd6-8567-e427ec1160af))
     (pin "2" (uuid 4e92823f-3cb2-43ee-bdf7-4ce417a3e54c))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "R5") (unit 1)
         )
@@ -1598,7 +1598,7 @@
     )
     (pin "1" (uuid e410bfaf-d5ee-48a5-8cf8-6a39459112a9))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR012") (unit 1)
         )
@@ -1615,7 +1615,7 @@
     (property "Value" "LED" (at 80.9625 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 82.55 21.59 0)
+    (property "Footprint" "LED_THT:LED_D5.0mm" (at 82.55 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 82.55 21.59 0)
@@ -1624,7 +1624,7 @@
     (pin "1" (uuid 4a923bf1-1f9a-44f4-9ac5-ba5819c10059))
     (pin "2" (uuid afbfcaf0-e78a-44d0-be46-fd816b9a6eb4))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "D2") (unit 1)
         )
@@ -1641,7 +1641,7 @@
     (property "Value" "4.7μ" (at 35.56 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 32.7152 72.39 0)
+    (property "Footprint" "SamacSys_Parts:CAPPRD500W60D1025H1400" (at 32.7152 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 31.75 68.58 0)
@@ -1650,7 +1650,7 @@
     (pin "1" (uuid d24b7e99-d655-48c7-be91-d9696064d095))
     (pin "2" (uuid abe5bdcd-69f7-43ab-8362-ca22669b2ef3))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "C2") (unit 1)
         )
@@ -1675,7 +1675,7 @@
     )
     (pin "1" (uuid 66bdb780-977b-4852-9fe1-ed83cda12126))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR014") (unit 1)
         )
@@ -1692,7 +1692,7 @@
     (property "Value" "SW_Push" (at 48.26 69.85 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 49.53 68.58 0)
+    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" (at 49.53 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 49.53 68.58 0)
@@ -1701,7 +1701,7 @@
     (pin "1" (uuid 35c69a7f-3bcd-4b03-b6c0-82f45acf29aa))
     (pin "2" (uuid 1a16587a-eb45-4907-b26a-1427dc64cda5))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "SW2") (unit 1)
         )
@@ -1718,7 +1718,7 @@
     (property "Value" "UART1" (at 111.76 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 116.84 52.07 0)
+    (property "Footprint" "SamacSys_Parts:SHDRRA2W80P0X250_1X2_740X1150X610P" (at 116.84 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.84 52.07 0)
@@ -1727,7 +1727,7 @@
     (pin "1" (uuid 1f18b45a-9630-48cf-8d25-68896c66b5a2))
     (pin "2" (uuid 9ac325cf-cb80-4458-bf5a-a5d13d573339))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "J2") (unit 1)
         )
@@ -1744,7 +1744,7 @@
     (property "Value" "10k" (at 39.37 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 42.672 54.61 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 42.672 54.61 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 44.45 54.61 0)
@@ -1753,7 +1753,7 @@
     (pin "1" (uuid 42d65ff0-fe92-47cd-a2d1-f075c4e303a9))
     (pin "2" (uuid ab913749-8cc8-42b5-9554-93c58e5deeee))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "R3") (unit 1)
         )
@@ -1778,7 +1778,7 @@
     )
     (pin "1" (uuid 51015a0e-02e5-479d-9bc7-6a57a5ece8d7))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR019") (unit 1)
         )
@@ -1795,7 +1795,7 @@
     (property "Value" "10k" (at 39.37 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 42.672 99.06 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 42.672 99.06 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 44.45 99.06 0)
@@ -1804,7 +1804,7 @@
     (pin "1" (uuid 4fe7d6f7-d1bb-49f3-a82c-aa75958882ee))
     (pin "2" (uuid 4025fbda-8a78-484c-ba47-50af3b16a9de))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "R7") (unit 1)
         )
@@ -1821,7 +1821,7 @@
     (property "Value" "10k" (at 16.51 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 19.812 54.61 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 19.812 54.61 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 21.59 54.61 0)
@@ -1830,7 +1830,7 @@
     (pin "1" (uuid e2e31f1a-6d83-4170-9d89-5366268a8fd2))
     (pin "2" (uuid 2b9c6ef7-37e8-4921-a08c-76ee32428e0a))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "R1") (unit 1)
         )
@@ -1847,7 +1847,7 @@
     (property "Value" "SW_Push" (at 25.4 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 26.67 113.03 0)
+    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" (at 26.67 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 26.67 113.03 0)
@@ -1856,7 +1856,7 @@
     (pin "1" (uuid ec12c03c-a69d-4ca5-b18a-0a54a923182f))
     (pin "2" (uuid a7529886-9001-4616-b711-0ac9c5197055))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "SW4") (unit 1)
         )
@@ -1873,7 +1873,7 @@
     (property "Value" "4.7μ" (at 53.975 29.845 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LED_SMD:LED-APA102-2020" (at 54.61 25.7048 0)
+    (property "Footprint" "SamacSys_Parts:CAPPRD500W60D1025H1400" (at 54.61 25.7048 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 50.8 26.67 0)
@@ -1882,7 +1882,7 @@
     (pin "1" (uuid 360fc2e6-873a-4e57-91da-67be3419dd38))
     (pin "2" (uuid 00994935-2a1f-445c-9247-3d36acadf5f5))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "C1") (unit 1)
         )
@@ -1899,7 +1899,7 @@
     (property "Value" "I2C1" (at 111.76 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 116.84 59.69 0)
+    (property "Footprint" "SamacSys_Parts:SHDRRA2W80P0X250_1X2_740X1150X610P" (at 116.84 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.84 59.69 0)
@@ -1908,7 +1908,7 @@
     (pin "1" (uuid 9df4c806-376d-46fc-b414-c649589e50d2))
     (pin "2" (uuid 3fa7f4fc-78dd-411c-8da3-2311d23b448d))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "J4") (unit 1)
         )
@@ -1933,7 +1933,7 @@
     )
     (pin "1" (uuid cdc5f52c-f844-423f-9ce2-28f4bfa5c591))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR05") (unit 1)
         )
@@ -1950,7 +1950,7 @@
     (property "Value" "4.7μ" (at 58.42 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 55.5752 72.39 0)
+    (property "Footprint" "SamacSys_Parts:CAPPRD500W60D1025H1400" (at 55.5752 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 54.61 68.58 0)
@@ -1959,7 +1959,7 @@
     (pin "1" (uuid 8103767d-dd81-4e74-b9f6-0495f771a6b5))
     (pin "2" (uuid fc7ac75a-3a4d-41c6-93c4-4333d473d250))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "C3") (unit 1)
         )
@@ -1976,7 +1976,7 @@
     (property "Value" "Pico" (at 144.78 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "RPi_Pico:RPi_Pico_SMD_TH" (at 144.78 60.96 90)
+    (property "Footprint" "SamacSys_Parts:RPi_Pico_SMD_TH" (at 144.78 60.96 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 144.78 60.96 0)
@@ -2026,7 +2026,7 @@
     (pin "8" (uuid 0b297642-25d7-47d8-a461-dc91346ac4e8))
     (pin "9" (uuid b2a78b04-dda0-4afd-ad2d-47be18e17c5c))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "U1") (unit 1)
         )
@@ -2043,7 +2043,7 @@
     (property "Value" "18742" (at 29.21 15.875 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "18742" (at 35.56 27.94 0)
+    (property "Footprint" "SamacSys_Parts:18742" (at 35.56 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://akizukidenshi.com/download/ds/4ucon/18742.pdf" (at 35.56 25.4 0)
@@ -2071,7 +2071,7 @@
     (pin "2" (uuid fb57c91b-94b9-4884-b651-efd13c1521e6))
     (pin "3" (uuid b2970f74-8235-4d5f-8877-5b22e4bc5691))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "J7") (unit 1)
         )
@@ -2096,7 +2096,7 @@
     )
     (pin "1" (uuid f53c58b7-b669-4f9f-ac8e-5cab23ff7ef5))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR01") (unit 1)
         )
@@ -2113,7 +2113,7 @@
     (property "Value" "SW_DPDT_x2" (at 72.39 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 72.39 64.77 0)
+    (property "Footprint" "SamacSys_Parts:2MS1T2B4M2QES" (at 72.39 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 72.39 64.77 0)
@@ -2126,7 +2126,7 @@
     (pin "5" (uuid e217fe7c-af3c-405e-aa50-d0f70bd4c82a))
     (pin "6" (uuid f130c801-fb7f-400a-a2a8-19f3f18580bc))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "SW3") (unit 1)
         )
@@ -2151,7 +2151,7 @@
     )
     (pin "1" (uuid 0a594dd6-2e24-45af-8836-48b07688e57c))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR015") (unit 1)
         )
@@ -2168,7 +2168,7 @@
     (property "Value" "10k" (at 26.67 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 26.67 62.738 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 26.67 62.738 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 26.67 60.96 0)
@@ -2177,7 +2177,7 @@
     (pin "1" (uuid e3e4ccfa-332c-4416-b729-c8bd0b556b13))
     (pin "2" (uuid 805c1994-e3e5-41ec-bc2d-a517cfa62714))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "R2") (unit 1)
         )
@@ -2194,7 +2194,7 @@
     (property "Value" "SW_Push" (at 48.26 114.3 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 49.53 113.03 0)
+    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" (at 49.53 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 49.53 113.03 0)
@@ -2203,7 +2203,7 @@
     (pin "1" (uuid 1aef50f0-50b5-40c0-a719-565adef2b686))
     (pin "2" (uuid 6e6d86b0-642d-4d41-9bb7-81a50a3252db))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "SW5") (unit 1)
         )
@@ -2220,7 +2220,7 @@
     (property "Value" "UART0" (at 111.76 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 116.84 39.37 0)
+    (property "Footprint" "SamacSys_Parts:SHDRRA2W80P0X250_1X2_740X1150X610P" (at 116.84 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.84 39.37 0)
@@ -2229,7 +2229,7 @@
     (pin "1" (uuid 2f91b779-2946-4d59-b3b6-2270c16fcfa8))
     (pin "2" (uuid 6e98b120-891a-4bfc-a1b8-045696c39412))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "J1") (unit 1)
         )
@@ -2254,7 +2254,7 @@
     )
     (pin "1" (uuid dd76e9f0-3425-407c-a82b-0b2736d5d35f))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR011") (unit 1)
         )
@@ -2271,7 +2271,7 @@
     (property "Value" "LED" (at 80.9625 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 82.55 29.21 0)
+    (property "Footprint" "LED_THT:LED_D5.0mm" (at 82.55 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 82.55 29.21 0)
@@ -2280,7 +2280,7 @@
     (pin "1" (uuid 9197f95d-1cb3-4760-bedc-2057ed59c749))
     (pin "2" (uuid 7a75c6eb-b9a7-4872-b46f-7f4f01e1c3a6))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "D4") (unit 1)
         )
@@ -2305,7 +2305,7 @@
     )
     (pin "1" (uuid 5e4039d8-d5a4-4ef2-a6a9-e05ee763db51))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR08") (unit 1)
         )
@@ -2322,7 +2322,7 @@
     (property "Value" "LED" (at 80.9625 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 82.55 25.4 0)
+    (property "Footprint" "LED_THT:LED_D5.0mm" (at 82.55 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 82.55 25.4 0)
@@ -2331,7 +2331,7 @@
     (pin "1" (uuid 91ba834e-4bc8-471a-928f-f00d99ad92be))
     (pin "2" (uuid b335ca96-f28b-4fc9-83ba-65b1a680f10a))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "D3") (unit 1)
         )
@@ -2348,7 +2348,7 @@
     (property "Value" "SW_Push" (at 25.4 69.85 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (at 26.67 68.58 0)
+    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" (at 26.67 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 26.67 68.58 0)
@@ -2357,7 +2357,7 @@
     (pin "1" (uuid 4a003c47-14ad-48c6-b349-e4195e8a2163))
     (pin "2" (uuid 5a60f7b4-17db-4e36-850f-5a2cfa9e774e))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "SW1") (unit 1)
         )
@@ -2382,7 +2382,7 @@
     )
     (pin "1" (uuid 8f0d00aa-368c-483e-8c5a-d03a4f511b5a))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR02") (unit 1)
         )
@@ -2399,7 +2399,7 @@
     (property "Value" "10k" (at 49.53 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 49.53 107.188 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 49.53 107.188 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 49.53 105.41 0)
@@ -2408,7 +2408,7 @@
     (pin "1" (uuid b04f4493-61cb-42a0-a0dc-337708575421))
     (pin "2" (uuid d1c7068d-8c4f-4cef-88ad-7b44a139a24e))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "R8") (unit 1)
         )
@@ -2433,7 +2433,7 @@
     )
     (pin "1" (uuid 6fdacf77-afc6-403a-9f95-ebe1e51f03fd))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR09") (unit 1)
         )
@@ -2458,7 +2458,7 @@
     )
     (pin "1" (uuid 9e4ab45e-135a-4b5d-909d-a7137a27cea6))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR04") (unit 1)
         )
@@ -2475,7 +2475,7 @@
     (property "Value" "LED" (at 80.9625 13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (at 82.55 17.78 0)
+    (property "Footprint" "LED_THT:LED_D5.0mm" (at 82.55 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 82.55 17.78 0)
@@ -2484,7 +2484,7 @@
     (pin "1" (uuid 89c272cc-17e1-4b5f-9388-67d18ead3d21))
     (pin "2" (uuid 5a6c2a86-3ae8-45c2-ad5c-f8f5dad47bde))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "D1") (unit 1)
         )
@@ -2509,7 +2509,7 @@
     )
     (pin "1" (uuid 64cdcb12-b01a-4578-b0d8-fc9785f1147a))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR03") (unit 1)
         )
@@ -2526,7 +2526,7 @@
     (property "Value" "10k" (at 49.53 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 49.53 62.738 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 49.53 62.738 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 49.53 60.96 0)
@@ -2535,7 +2535,7 @@
     (pin "1" (uuid 30746dee-dab0-449d-a6af-606ff860ab85))
     (pin "2" (uuid 20c7f9e3-aeb8-4970-8c19-c74e51099439))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "R4") (unit 1)
         )
@@ -2552,7 +2552,7 @@
     (property "Value" "4.7μ" (at 35.56 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 32.7152 116.84 0)
+    (property "Footprint" "SamacSys_Parts:CAPPRD500W60D1025H1400" (at 32.7152 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 31.75 113.03 0)
@@ -2561,7 +2561,7 @@
     (pin "1" (uuid f4c8732b-ef79-4164-8ba8-657635b23957))
     (pin "2" (uuid 6ebe2cd8-7f77-4b85-be4f-0acc93f2b87c))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "C4") (unit 1)
         )
@@ -2578,7 +2578,7 @@
     (property "Value" "10k" (at 69.85 96.52 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 72.39 95.25 0)
+    (property "Footprint" "SamacSys_Parts:3386K" (at 72.39 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 72.39 95.25 0)
@@ -2588,7 +2588,7 @@
     (pin "2" (uuid de8e74c4-9c04-493f-a097-a3b053ee72fc))
     (pin "3" (uuid 2e7007c3-6531-4000-8829-0ad35674ae49))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "RV1") (unit 1)
         )
@@ -2613,7 +2613,7 @@
     )
     (pin "1" (uuid 2cb59d46-1c58-41f9-9cd7-7ca30523563c))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR07") (unit 1)
         )
@@ -2630,7 +2630,7 @@
     (property "Value" "Software_Serial" (at 106.68 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 116.84 85.09 0)
+    (property "Footprint" "SamacSys_Parts:SHDRRA2W80P0X250_1X2_740X1150X610P" (at 116.84 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.84 85.09 0)
@@ -2639,7 +2639,7 @@
     (pin "1" (uuid 9a69f9a7-c7dc-4327-9d14-cfc239efc6db))
     (pin "2" (uuid b4e0fc9e-322f-44fb-8e56-549566441b6f))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "J5") (unit 1)
         )
@@ -2664,7 +2664,7 @@
     )
     (pin "1" (uuid 82d28843-38ca-4235-b01c-9667af8405dc))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR016") (unit 1)
         )
@@ -2689,7 +2689,7 @@
     )
     (pin "1" (uuid 894e20c6-51cd-4b58-8cd4-7a8e63d7467d))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR06") (unit 1)
         )
@@ -2706,7 +2706,7 @@
     (property "Value" "I2C0" (at 111.76 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 116.84 64.77 0)
+    (property "Footprint" "SamacSys_Parts:SHDRRA2W80P0X250_1X2_740X1150X610P" (at 116.84 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 116.84 64.77 0)
@@ -2715,7 +2715,7 @@
     (pin "1" (uuid be7df5d4-8f82-44d8-a9f0-9b4c7bd37ac5))
     (pin "2" (uuid a33ab397-5b45-4265-ae60-e1063bfde568))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "J3") (unit 1)
         )
@@ -2732,7 +2732,7 @@
     (property "Value" "Conn_01x03_Female" (at 74.93 127 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 74.93 121.92 0)
+    (property "Footprint" "SamacSys_Parts:SHDRRA3W64P0X250_1X3_990X1150X610P" (at 74.93 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 74.93 121.92 0)
@@ -2742,7 +2742,7 @@
     (pin "2" (uuid b905649a-a87d-4215-aa31-f12908e84f08))
     (pin "3" (uuid 5458602e-2540-4d5a-afe3-9fd3436dc36f))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "J6") (unit 1)
         )
@@ -2767,7 +2767,7 @@
     )
     (pin "1" (uuid 4e1ef0e4-3879-4bef-888b-e563540ccd25))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR018") (unit 1)
         )
@@ -2792,7 +2792,7 @@
     )
     (pin "1" (uuid e40719a9-b692-4a4e-a92e-1d094ceb462d))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR013") (unit 1)
         )
@@ -2817,7 +2817,7 @@
     )
     (pin "1" (uuid 32a15e2b-07bd-45b3-b307-c252d0e3b826))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#FLG02") (unit 1)
         )
@@ -2842,7 +2842,7 @@
     )
     (pin "1" (uuid 6a4082e5-5086-4ae4-adf9-2bec5409d5a5))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "#PWR017") (unit 1)
         )
@@ -2859,7 +2859,7 @@
     (property "Value" "10k" (at 26.67 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 26.67 107.188 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (at 26.67 107.188 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 26.67 105.41 0)
@@ -2868,7 +2868,7 @@
     (pin "1" (uuid 21ff829f-f7c0-4a36-86f2-d8b55fbdc24a))
     (pin "2" (uuid daab1489-9270-4877-963f-4f7c42d15868))
     (instances
-      (project "PicoTestBoard"
+      (project "PCB_PracticeBoard"
         (path "/8ee77fd3-ca90-4a7e-86e2-7b868ec87c6b"
           (reference "R6") (unit 1)
         )
